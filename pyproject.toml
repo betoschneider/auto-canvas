@@ -1,0 +1,22 @@
+[project]
+name = "auto-canvas"
+version = "0.1.0"
+description = "Automação RPA (Robot Framework/Selenium) para plataformas EAD baseadas no Canvas"
+readme = "README.md"
+authors = [
+    { name = "Roberto Schneider", email = "roberto.schneider@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "cryptography>=50.0.1",
+    "robotframework>=7.4.2",
+    "robotframework-seleniumlibrary>=6.9.0",
+]
+
+[tool.uv]
+# Projeto executável (suíte de automação), não um pacote Python instalável.
+package = false
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"

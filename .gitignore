@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment variables / secrets
+.env
+
+# Robot Framework artifacts
+log.html
+report.html
+output.xml
+selenium-screenshot-*.png
+pagina_erro.html
+
+# Boilerplate / Unused src directory
+src/
